@@ -1,0 +1,29 @@
+{
+  "windows": {
+    "chrome": ["chrome.exe", "start chrome"],
+    "google chrome": ["chrome.exe", "start chrome"],
+    "vscode": ["code.cmd", "code.exe", "code"],
+    "vs code": ["code.cmd", "code.exe", "code"],
+    "notepad": ["notepad.exe"],
+    "calculator": ["calc.exe"],
+    "terminal": ["wt.exe", "powershell.exe", "cmd.exe"]
+  },
+  "linux": {
+    "chrome": ["google-chrome", "google-chrome-stable", "chromium", "chromium-browser"],
+    "google chrome": ["google-chrome", "google-chrome-stable", "chromium", "chromium-browser"],
+    "vscode": ["code"],
+    "vs code": ["code"],
+    "calculator": ["gnome-calculator", "kcalc", "xcalc", "galculator"],
+    "terminal": ["gnome-terminal", "x-terminal-emulator", "konsole", "xterm"],
+    "notepad": ["gedit", "kate", "mousepad", "xed", "nano"]
+  },
+  "macos": {
+    "chrome": ["open -a 'Google Chrome'", "Google Chrome"],
+    "google chrome": ["open -a 'Google Chrome'", "Google Chrome"],
+    "vscode": ["open -a 'Visual Studio Code'", "code"],
+    "vs code": ["open -a 'Visual Studio Code'", "code"],
+    "calculator": ["open -a Calculator"],
+    "terminal": ["open -a Terminal"],
+    "notepad": ["open -a TextEdit"]
+  }
+}

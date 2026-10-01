@@ -1,0 +1,6 @@
+{
+  "name": "SaruX AI",
+  "description": "Your Personal AI Intelligence — futuristic AI assistant powered by Google Gemini.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
